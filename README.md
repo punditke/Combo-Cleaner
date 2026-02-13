@@ -43,7 +43,7 @@ A powerful Telegram bot for processing email:password combinations (combos) and 
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/yourusername/telegram-combo-proxy-bot.git
+git clone https://github.com/punditke/ComboCleaner.py
 cd telegram-combo-proxy-bot
 ```
 
@@ -62,7 +62,7 @@ OWNER_ID = 1234567890              # Your Telegram ID
 
 4. **Run the bot**
 ```bash
-python bot.py
+python ComboCleaner.py
 ```
 
 ## 🎮 Usage
@@ -159,7 +159,7 @@ admin@outlook.com;adminpass
 ```
 telegram-combo-proxy-bot/
 │
-├── bot.py                 # Main bot code
+├── ComboCleaner.py        # Main bot code
 ├── bot_users.txt          # Auto-generated user database
 ├── README.md              # This file
 └── requirements.txt       # Dependencies
@@ -173,7 +173,7 @@ httpx>=0.24.0
 
 ## ⚙️ Configuration Options
 
-You can modify these settings in `bot.py`:
+You can modify these settings in `ComboCleaner.py`:
 
 ```python
 # File size limits
@@ -283,8 +283,8 @@ SOFTWARE.
 ## 👨‍💻 Author
 
 **Your Name**
-- GitHub: [@yourusername](https://github.com/yourusername)
-- Telegram: [@yourusername](https://t.me/yourusername)
+- GitHub: [@punditke](https://github.com/punditke)
+- Telegram: [@punditke](https://t.me/punditke)
 
 ## 🙏 Acknowledgments
 
